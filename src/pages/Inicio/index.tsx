@@ -4,9 +4,9 @@ import stylesTema from "styles/Tema.module.scss";
 import nossaCasa from "assets/nossa_casa.png";
 
 export default function Inicio() {
-  const pratosRecomendados = [...cardapio];
-
-  pratosRecomendados.sort(() => 0.5 - Math.random()).splice(0, 3);
+  const pratosRecomendados = [...cardapio]
+    .sort(() => 0.5 - Math.random())
+    .splice(0, 3);
   return (
     <section>
       <h3 className={stylesTema.titulo}>Recomendações da cozinha</h3>
