@@ -1,5 +1,4 @@
 import styles from "./Item.module.scss";
-import classNames from "classnames";
 import TagsPrato from "components/TagsPrato";
 import { useNavigate } from "react-router-dom";
 import { Prato } from "types/Prato";
